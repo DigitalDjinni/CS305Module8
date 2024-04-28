@@ -1,1 +1,14 @@
-# CS305Module8
+Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
+Artemis Financial is a consulting company who develops financial plans for their customers. The issue they wanted to address was that they wanted to modernize their operations and wanted to update their security features to protect their client’s data and financial information.
+What did you do very well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall wellbeing?
+When I found out that Artemis Financial had security vulnerabilities due to code that wasn’t kept up and them not using encryption I went ahead and implemented those features. I added SHA-256 encryption as well as updated their Maven Dependency Check so that it would secure their data and the data of their clients as well as run reports informing them on potential vulnerabilities.
+What part of the vulnerability assessment was challenging or helpful to you?
+Learning how to generate certificates took some time to figure out but once I ran it as administrator it wasn’t very hard. The part that I found super helpful was learning how to use Maven to check for vulnerabilities. Until now I didn’t know that existed and will be using it in future code.
+How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
+I increased layers of security by adding encryption to the program. I also used Maven to check for vulnerabilities and I added error handling to prevent information leakage.
+How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
+After implementing these features I made sure the code was secure by running updated Maven tests to check and see if there were new vulnerabilities. Once I saw that my code safely ran without error and that there wasn’t any new vulnerabilities I concluded that the updates were successful.
+What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
+This class gave me a lot of tools that will be helpful in future assignments. Things like using encryption, the use of Maven, and learning how to generate certificates will be very important in my future code
+Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
+Things I would show my future employers from this assignment is the fact that I know how to use tools to generate certificates for security. I would also show them that I know how to implement and use Maven Dependency Check and that I know how to implement encryption therefore keeping the programs data safe and protected.
